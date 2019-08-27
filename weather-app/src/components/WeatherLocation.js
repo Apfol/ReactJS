@@ -5,7 +5,7 @@ import WeatherData from './WeatherData'
 const WeatherLocation = () => {
     return (
         <div>
-            <Location></Location>
+            <Location city="Buenos Aires"></Location>
             <WeatherData></WeatherData>
         </div>
     );
